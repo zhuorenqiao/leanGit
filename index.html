@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app">
+		<ul>
+			<li v-for="item in loves">
+				<a :href="item.link">{{item.love}}</a>
+			</li>
+		</ul>
+	</div>
+	<script src="./lib/vue.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+</html>
